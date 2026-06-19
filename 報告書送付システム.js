@@ -11,8 +11,7 @@ function dailyReportSendSystem(){
   const layout_ID =  PropertiesService.getScriptProperties().getProperty("SPREADSHEET_LAYOUT_ID") || "YOUR_SPREADSHEET_LAYOUT_ID";
 
   //メールパラメータ
-  const address = "gtrevenge2@gmail.com";
-  //const address = "your_email@sample.com"
+  const address = "your_email@sample.com"//あなたのメールアドレスを入力してください。
 
   console.log("初期値");
   console.log(form_ID);
@@ -257,7 +256,7 @@ function summarizeOnSubmit(form_sheet, form_lastRow) {
     "contents": [{
       "parts": [{
         "text": 
-        "#役割 あなたはプロの編集者です。#タスク 以下の文章を250字以内に要約してください。#制約条件・常態（だ・である）調で記載すること・改行せず、1つの文章として書くこと ・文字数を記載しないこと ・できる限り文章の文言を変えずに要約すること：\n\n" + targetText
+        "#役割 あなたはプロの編集者です。#タスク 以下の文章を要約してください。** #制約条件・常態（だ・である）調で記載すること・改行せず、1つの文章として書くこと ・文字数を記載しないこと ・【最重要】 出力する前に、自分で作成した要約の文字数を厳密にカウントしてください。・200文字以上、250文字以下の範囲に収まっていることを確認してから最終出力を出してください。 ・できる限り文章の文言を変えずに要約すること：\n\n" + targetText
       }]
     }]
   };
