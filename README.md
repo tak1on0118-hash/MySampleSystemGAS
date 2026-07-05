@@ -28,8 +28,10 @@ https://docs.google.com/forms/d/16YuFEZx3vDfO-ReMBUnoNX1TwTpMQabML4vqhtiU2h8/cop
 レイアウト用のテンプレートはこちら  
 https://docs.google.com/spreadsheets/d/1u3-8Jv2pROXcsqJQu3aDJ23PZEW7JjK9jUSlpDm5CpA/copy  
 ※スプレッドシートの出力結果例です。　
-https://docs.google.com/spreadsheets/d/17KYTweK7eIakwSsqACT8WEn6pnkPgApl7CrlJjNL5Bs/template/preview/  （フォームの回答例）  
-https://docs.google.com/spreadsheets/d/1LPYOVGY0t6KxnyUW2oSCUW4N8UG_hLihvSqt824A-is/template/preview/　（報告書ファイル例）
+フォームの回答例:
+https://docs.google.com/spreadsheets/d/17KYTweK7eIakwSsqACT8WEn6pnkPgApl7CrlJjNL5Bs/template/preview/    
+報告書ファイル例: 
+https://docs.google.com/spreadsheets/d/1LPYOVGY0t6KxnyUW2oSCUW4N8UG_hLihvSqt824A-is/template/preview/  
 
 ---
 ＜導入・環境構築手順＞  
