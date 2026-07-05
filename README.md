@@ -29,6 +29,7 @@ https://docs.google.com/forms/d/16YuFEZx3vDfO-ReMBUnoNX1TwTpMQabML4vqhtiU2h8/cop
 https://docs.google.com/spreadsheets/d/1u3-8Jv2pROXcsqJQu3aDJ23PZEW7JjK9jUSlpDm5CpA/copy  
 ※スプレッドシートの出力結果例です。　
 https://docs.google.com/spreadsheets/d/17KYTweK7eIakwSsqACT8WEn6pnkPgApl7CrlJjNL5Bs/template/preview/  
+
 ---
 ＜導入・環境構築手順＞  
 本システムをご自身の環境で再現・動作確認するための手順です。  
@@ -38,8 +39,9 @@ https://docs.google.com/spreadsheets/d/17KYTweK7eIakwSsqACT8WEn6pnkPgApl7CrlJjNL
 2. レイアウト用のシートの作成  
 上記の「レイアウト用ののテンプレートはこちら」から、新しいスプレッドシートを取得します。
 
-3.「1.フォームの回答用シートの作成」で作ったシートの「拡張機能」＞「Apps Script」をクリック。左上のファイルの右上にある＋マークから新しいスクリプトを作成。　　
-「フォルダ作成コード.js」「月次報告書送付システム.js」「実行コード.js」「報告書送付システム.js」をそれぞれ別々のファイル（スクリプト）としてコピーします。
+3. スクリプトファイルの作成
+「1.フォームの回答用シートの作成」で作ったシートの「拡張機能」＞「Apps Script」をクリック。左上のファイルの右上にある＋マークから新しいスクリプトを作成。そちらにGitHubにあげている4つのコード（「フォルダ作成コード.js」「月次報告書送付システム.js」「実行コード.js」「報告書送付システム.js」）をコピー＆ペーストします。
+※ それぞれ別々のファイル（スクリプト）としてコピー＆ペーストしてください。  
 
 3. スクリプトプロパティ（環境変数）の設定  
 Google Apps Script の「プロジェクトの設定」>「スクリプトプロパティ」に以下のキーと値を設定してください。シートIDはURLの `/d/` と `/edit` の間の文字列です。
